@@ -1,0 +1,98 @@
+<html>
+<script>
+     var i=0;
+    function polling(){
+        
+           var count= i++;
+           for(var j=1;j<=6;j++)
+           document.getElementById('result'+j).innerHTML=count+"Likes"; 
+         
+    }
+</script>
+    <body>
+        <h2>Player Polling</h2>
+        <table id="player">
+            <tr>
+                <td>
+               <img src = "/uploads/Image/images-6111/mitchell_starc.png">
+              
+                  <div class="header">
+                        <font>Mitchell Starc</font>
+                        <button id="click1" onclick="polling()">Like</button>
+                   
+                   <div id="result1">
+            
+                         </div>
+                       
+                   </div>
+                </td>
+                  <td>
+                   <img src = "/uploads/Image/images-6111/masrafe-bin-mortaza-ban.png">
+                  <div class="header">
+                        <font>Mashrafe Mortaza</font>
+                        <button id="click2" onclick="polling()">Like</button>
+                   <div id="result2">
+            
+                        </div>
+                   
+                       
+                   </div>
+                </td>
+                  <td>
+                  <img src ="/uploads/Image/images-6111/Ahmed-Shehzad.png" >
+               
+                  <div class="header">
+                        <font>Ahmed Shehzad</font>
+                        <button id="click3" onclick="polling()" >Like</button>
+                   <div id="result3">
+            
+                       </div>
+                   
+                       
+                   </div>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+               <img src = "/uploads/Image/images-6111/AB-De-Villiers.png">
+                         <div class="header">
+                        <font>AB de Villiers</font>
+                        <button id="click4" onclick="polling()">Like</button>
+                   
+                   <div id="result4">
+            
+                  </div>
+                       
+                   </div>
+                </td>
+                  <td>
+                <img src = "/uploads/Image/images-6111/Virat-Kohli.png">
+                  <div class="header">
+                        <font>Virat Kohli</font>
+                        <button id="click5" onclick="polling()">Like</button>
+                    
+                        <div id="result5">
+            
+                         </div>
+                        
+                    </div>
+                </td>
+                  <td>
+                
+                 <img src = "/uploads/Image/images-6111/joe.png">
+                  <div class="header">
+                        <font>Joe Root</font>
+                        <button id="click6" onclick="polling()" >Like</button>
+                    
+                        <div id="result6">
+                            
+                        </div>
+                    </div>
+                </td>
+                
+                
+            </tr>
+        </table>
+        
+    </body>
+</html>
